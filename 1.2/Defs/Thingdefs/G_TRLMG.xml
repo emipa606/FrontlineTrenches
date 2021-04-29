@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="TR_BuildingBaseLMG" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <tickerType>Never</tickerType>
+  </ThingDef>
+  <!-- ================ LMG ================ -->
+  <ThingDef ParentName="TR_BuildingBaseLMG">
+    <defName>TR_Base_LMG</defName>
+    <label>MG 08-15</label>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <description>Machine gun with low rate of fire.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <graphicData>
+      <texPath>Invis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>Trenches1</li>
+    </researchPrerequisites>
+    <uiIconPath>Things/Building/Mounted/Icons/LMGTrGun_UI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>true</stealable>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>3</Mass>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots remaining</fuelLabel>
+        <fuelGizmoLabel>Shots remaining</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>TR_AmmoLMG</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>60</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>60</fuelMultiplier>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs new magazine</outOfFuelMessage>
+        <fuelIconPath>Things/Building/Mounted/Ammo/LMG/TR_Cartridgebelt_LMG</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <fillPercent>0.1</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Trenches</designationCategory>
+    <building>
+      <turretGunDef>TR_Gun_LMG</turretGunDef>
+      <turretBurstWarmupTime>0.75</turretBurstWarmupTime>
+      <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>TR_Bullet_LMG</defName>
+    <label>7.92mm Bullet</label>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Bullets/LMGbullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>100</speed>
+      <flyOverhead>false</flyOverhead>
+      <soundImpactAnticipate>TR_Wizz</soundImpactAnticipate>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="TR_BaseWeaponLMG" Abstract="True">
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <SellPriceFactor>0.20</SellPriceFactor>
+    </statBases>
+    <pathCost>10</pathCost>
+    <altitudeLayer>Item</altitudeLayer>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <tickerType>Never</tickerType>
+    <useHitPoints>true</useHitPoints>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <selectable>true</selectable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <alwaysHaulable>true</alwaysHaulable>
+    <equipmentType>Primary</equipmentType>
+  </ThingDef>
+  <ThingDef ParentName="TR_BaseWeaponLMG">
+    <defName>TR_Gun_LMG</defName>
+    <label>MG 08-15</label>
+    <description>Machine gun with low rate of fire.</description>
+    <graphicData>
+      <texPath>Things/Building/Mounted/LMGTrGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <menuHidden>true</menuHidden>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <!--><generateCommonality>0</generateCommonality><-->
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <Mass>20</Mass>
+    </statBases>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TR_Bullet_LMG</defaultProjectile>
+        <forcedMissRadius>0</forcedMissRadius>
+        <warmupTime>0.75</warmupTime>
+        <minRange>0</minRange>
+        <range>30</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>TR_LMG_Fire</soundCast>
+        <muzzleFlashScale>20</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <requireLineOfSight>true</requireLineOfSight>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ================ LMG with Sandbags================ -->
+  <ThingDef ParentName="TR_BuildingBaseLMG">
+    <defName>TR_Base_LMGSB</defName>
+    <label>MG 08-15 with sandbags</label>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <description>Machine gun with low rate of fire.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <researchPrerequisites>
+      <li>Trenches1</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Things/Building/Mounted/BASEMGTR_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom1</li>
+      </linkFlags>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Mounted/Icons/LMGTrSB_UI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>true</stealable>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <WorkToBuild>900</WorkToBuild>
+      <Mass>3</Mass>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots remaining</fuelLabel>
+        <fuelGizmoLabel>Shots remaining</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>TR_AmmoLMG</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>60</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>60</fuelMultiplier>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs new magazine</outOfFuelMessage>
+        <fuelIconPath>Things/Building/Mounted/Ammo/LMG/TR_Cartridgebelt_LMG</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Cloth>5</Cloth>
+    </costList>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Trenches</designationCategory>
+    <building>
+      <turretGunDef>TR_Gun_LMG</turretGunDef>
+      <turretBurstWarmupTime>0.75</turretBurstWarmupTime>
+      <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Mounted/Blueprints/LMGTrSB_BP_Atlas</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <linkType>Basic</linkType>
+        <linkFlags>
+          <li>Custom1</li>
+        </linkFlags>
+      </blueprintGraphicData>
+    </building>
+    <placeWorkers>
+      <!-- <li>PlaceWorker_TurretTop</li> -->
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

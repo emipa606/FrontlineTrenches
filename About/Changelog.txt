@@ -1,0 +1,4 @@
+# Changelog for FrontlineTrenches
+
+1.0.0.0 - First publish
+
