@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoTRMortarGrenades</defName>
+    <label>TR Mortar Grenade</label>
+    <parent>AmmoShells</parent>
+    <iconPath>Things/Building/Mounted/Ammo/Ammo-Mortar</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_TRMortarGrenade</defName>
+    <label>TRMortar Grenades</label>
+    <ammoTypes>
+      <Ammo_TRMortarGrenade_HE>Bullet_TRMortarGrenade_HE</Ammo_TRMortarGrenade_HE>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="TRMortarGrenadesBase" ParentName="AmmoBase" Abstract="True">
+    <description>Grenades for your Mortar.</description>
+    <thingCategories>
+      <li>AmmoTRMortarGrenades</li>
+    </thingCategories>
+    <stackLimit>25</stackLimit>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableMachining</li>
+    </tradeTags>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Bulk>0.5</Bulk>
+    </statBases>
+    <cookOffFlashScale>20</cookOffFlashScale>
+    <cookOffSound>MortarBomb_Explode</cookOffSound>
+    <destroyOnDrop>False</destroyOnDrop>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="TRMortarGrenadesBase">
+    <defName>Ammo_TRMortarGrenade_HE</defName>
+    <label>Mortar Round (HE)</label>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Ammo/Ammo-Mortar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.2</MarketValue>
+    </statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>25</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>3</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_GrenadeFrag>120</Fragment_GrenadeFrag>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseTRMortarGrenade" ParentName="BaseBullet" Abstract="true">
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>29</speed>
+      <soundExplode>TR_ExplosionMortar</soundExplode>
+      <flyOverhead>true</flyOverhead>
+      <dropsCasings>false</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseTRMortarGrenade">
+    <defName>Bullet_TRMortarGrenade_HE</defName>
+    <label>Mortar round (HE)</label>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Bullets/Mortarbullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <explosionRadius>2.5</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>80</damageAmountBase>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <soundExplode>TR_ExplosionMortar</soundExplode>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <soundImpactAnticipate>TR_IncomingMortar</soundImpactAnticipate>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>80</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>2.5</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_GrenadeFrag>120</Fragment_GrenadeFrag>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeAmmo_TRMortarGrenade_HE</defName>
+    <label>make TR-Mortar rounds x5</label>
+    <description>Craft 5 TR-Mortar rounds.</description>
+    <jobString>Making TR-Mortar rounds.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_TRMortarGrenade_HE>5</Ammo_TRMortarGrenade_HE>
+    </products>
+  </RecipeDef>
+</Defs>
