@@ -1,5 +1,8 @@
 # Changelog for FrontlineTrenches
 
+1.0.3.0 - PAK should now be able to shoot over trenches in CE
+
+
 1.0.2.0 - Fixed the CE-version of the mortar, via Craze
 
 

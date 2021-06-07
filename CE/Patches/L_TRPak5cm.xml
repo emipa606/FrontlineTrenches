@@ -27,6 +27,12 @@
       <li>CE_Turret</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TR_Base_Pak"]/fillPercent</xpath>
+    <value>
+      <fillPercent>0.85</fillPercent>
+    </value>
+  </Operation>
   <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
     <defName>TR_Gun_Pak</defName>
     <statBases>
