@@ -69,9 +69,11 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <speed>180</speed>
       <soundExplode>TR_ExplosionHowitzer</soundExplode>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <flyOverhead>true</flyOverhead>
       <dropsCasings>true</dropsCasings>
       <casingMoteDefname>Mote_BigShell</casingMoteDefname>
+      <gravityFactor>5</gravityFactor>
     </projectile>
   </ThingDef>
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseTRHowitzerShell">

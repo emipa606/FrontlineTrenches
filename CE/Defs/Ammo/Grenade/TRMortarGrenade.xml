@@ -65,11 +65,13 @@
     <graphicData>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <speed>29</speed>
       <soundExplode>TR_ExplosionMortar</soundExplode>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <flyOverhead>true</flyOverhead>
       <dropsCasings>false</dropsCasings>
+      <gravityFactor>5</gravityFactor>
     </projectile>
   </ThingDef>
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseTRMortarGrenade">

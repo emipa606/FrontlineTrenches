@@ -1,5 +1,8 @@
 # Changelog for FrontlineTrenches
 
+1.0.4.0 - Fixed the flighttimes for the howitzer and mortar in CE
+
+
 1.0.3.0 - PAK should now be able to shoot over trenches in CE
 
 
