@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-->
+	<ResearchTabDef>
+		<defName>Trenches</defName>
+		<label>Ancient art of digging some trenches.</label>
+	</ResearchTabDef>
+	
+<-->
+  <ResearchProjectDef>
+    <defName>Trenches1</defName>
+    <label>Trenches of WW1.</label>
+    <techLevel>Industrial</techLevel>
+    <description>First knowledge of setting up a defensive line by using trenches.</description>
+    <baseCost>750</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Trenches2</defName>
+    <label>Trenches of early WW2.</label>
+    <techLevel>Industrial</techLevel>
+    <description>Better technology to defend your trenches. Includes the new MG-34 and a powerful Howitzer.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>Trenches1</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Trenches3</defName>
+    <label>Trenches of late WW2.</label>
+    <techLevel>Industrial</techLevel>
+    <description>Best avaible technology to defend your trenches. Including the MG-42, a mid-range mortar and a powerful anti-tank cannon (PAK).</description>
+    <baseCost>1300</baseCost>
+    <prerequisites>
+      <li>Trenches2</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+</Defs>

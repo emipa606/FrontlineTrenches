@@ -37,7 +37,7 @@ The popular Mod-pack, focussing on the defense of your colony is out now: FRONTL
 
 =====Changelog V.2======
 - lowered aiming and cooldown time of PAK to improve it
-- Fixed Bug: Enemys won't spawn with MGs during raids
+- Fixed Bug: Enemys won&apos;t spawn with MGs during raids
 - Fixed Bug: Scherenfernrohr now has a Thingclass by itself
 ======================
 
@@ -56,16 +56,16 @@ This portion is the known trenches mod, including:
 
 -Two types of trenches. (provides 80 % cover. Very vulnerable to explosions)
 - A ladder for leaving your trench faster. (provides 60 % cover)
-- A "Step", so your people can "reach" nearby machine guns. (not needed, just for optics. Build your machinegun with the interaction-cell FIRST!  -  provides 60 % cover)
+- A &quot;Step&quot;, so your people can &quot;reach&quot; nearby machine guns. (not needed, just for optics. Build your machinegun with the interaction-cell FIRST!  -  provides 60 % cover)
 - A new type of sandbags (only need cloth for construction instead of steel, but only provides 50 % cover)
 - Razorwire for defence (deals no dmg but slows down your enemy)
-- Floorings: Trench Tiles, Trench Dirt and "No man's land" (slows down people by 28 %) 
+- Floorings: Trench Tiles, Trench Dirt and &quot;No man&apos;s land&quot; (slows down people by 28 %) 
 
 - 3 new machine guns ( MG 08/15, MG 34, MG 42), with or without sandbags. Now Ammo needed
 - A mid range mortar (needs ammo). Fires rapidly, but has a small detonation radius.
 - A Howitzer (needs ammo). Deals more damage and can reach every point.
-- An Anti-Tank gun (PAK, needs ammo). Deals immense damage (No detonation! It's just AP-Ammunition), but takes long to aim and reload. Added in to have a powerful defence against Centipede.
-- A "Scherenfernrohr" - special optics to improve the accuracy of your Howitzer and AT-Gun.
+- An Anti-Tank gun (PAK, needs ammo). Deals immense damage (No detonation! It&apos;s just AP-Ammunition), but takes long to aim and reload. Added in to have a powerful defence against Centipede.
+- A &quot;Scherenfernrohr&quot; - special optics to improve the accuracy of your Howitzer and AT-Gun.
 
 New and updated sounds (explosions, incoming missles, mg-fire), mostly extracted from actual wartime recordings.
 This mod should be safe for existing save-files.

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoTRHowitzerShells</defName>
+    <label>TRHowitzer Shell</label>
+    <parent>AmmoShells</parent>
+    <iconPath>Things/Building/Mounted/Ammo/Ammo-Howitzer</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_TRHowitzerShell</defName>
+    <label>TRHowitzer Shells</label>
+    <ammoTypes>
+      <Ammo_TRHowitzerShell_HE>Bullet_TRHowitzerShell_HE</Ammo_TRHowitzerShell_HE>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="TRHowitzerShellsBase" ParentName="AmmoBase" Abstract="True">
+    <description>Shells for your Howitzer.</description>
+    <thingCategories>
+      <li>AmmoTRHowitzerShells</li>
+    </thingCategories>
+    <stackLimit>10</stackLimit>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableMachining</li>
+    </tradeTags>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>4</Mass>
+      <Bulk>5</Bulk>
+    </statBases>
+    <cookOffFlashScale>30</cookOffFlashScale>
+    <cookOffSound>MortarBomb_Explode</cookOffSound>
+    <destroyOnDrop>False</destroyOnDrop>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="TRHowitzerShellsBase">
+    <defName>Ammo_TRHowitzerShell_HE</defName>
+    <label>Howitzer Shell (HE)</label>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Ammo/Ammo-Howitzer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>27.83</MarketValue>
+    </statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <detonateProjectile>Bullet_TRHowitzerShell_HE</detonateProjectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>50</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>4</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Large>70</Fragment_Large>
+          <Fragment_Small>130</Fragment_Small>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseTRHowitzerShell" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>180</speed>
+      <soundExplode>TR_ExplosionHowitzer</soundExplode>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <flyOverhead>true</flyOverhead>
+      <dropsCasings>true</dropsCasings>
+      <casingMoteDefname>Mote_BigShell</casingMoteDefname>
+      <gravityFactor>5</gravityFactor>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseTRHowitzerShell">
+    <defName>Bullet_TRHowitzerShell_HE</defName>
+    <label>Howitzer Shell (HE)</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Bullets/Howitzerbullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>150</damageAmountBase>
+      <explosionRadius>4</explosionRadius>
+      <soundExplode>TR_ExplosionHowitzer</soundExplode>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <soundImpactAnticipate>TR_IncomingHowitzer</soundImpactAnticipate>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>100</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>4</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Large>70</Fragment_Large>
+          <Fragment_Small>120</Fragment_Small>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="GrenadeRecipeBase">
+    <defName>MakeAmmo_TRHowitzerShell_HE</defName>
+    <label>make TR-Howitzer shells x5</label>
+    <description>Craft 5 TR-Howitzer shells.</description>
+    <jobString>Making TR-Howitzer shells.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_TRHowitzerShell_HE>5</Ammo_TRHowitzerShell_HE>
+    </products>
+  </RecipeDef>
+</Defs>
