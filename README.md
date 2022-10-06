@@ -5,14 +5,12 @@
 Update of Wuergers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1545180996
 with permission
-If you like the mod, show the original author your appreciation here: 
-https://ko-fi.com/wuergerking]![Image](https://i.imgur.com/gmaqOA3.png)
-
+If you like the mod, show the original author your appreciation https://ko-fi.com/wuergerking]here
 
 - All guns should now show range when placed
 - Fixed some icon and blueprint size-differences
 - 1.0 version should have the correct rotation of the turret
-- Added the CE-patch into the mod
+- [strike]Added the CE-patch into the mod[/strike] CE-patches now included in the main CE-mod instead
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -71,6 +69,7 @@ This mod should be safe for existing save-files.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
