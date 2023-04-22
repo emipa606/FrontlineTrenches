@@ -73,3 +73,4 @@ This mod should be safe for existing save-files.
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431]Last updated 2023-04-22
