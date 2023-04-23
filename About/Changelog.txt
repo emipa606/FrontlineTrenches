@@ -1,5 +1,8 @@
 # Changelog for FrontlineTrenches
 
+1.4.3 - Fixed the steep step as well.
+
+
 1.4.2 - Fixed the trench-steps
 
 

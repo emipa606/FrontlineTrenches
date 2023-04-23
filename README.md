@@ -71,6 +71,4 @@ This mod should be safe for existing save-files.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431]Last updated 2023-04-22
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431]Last updated 2023-04-23
