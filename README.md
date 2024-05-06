@@ -1,22 +1,20 @@
 # FrontlineTrenches
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of Wuergers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1545180996
 with permission
-If you like the mod, show the original author your appreciation https://ko-fi.com/wuergerking]here
+If you like the mod, show the original author your appreciation [https://ko-fi.com/wuergerking](here)
 
 - All guns should now show range when placed
 - Fixed some icon and blueprint size-differences
 - 1.0 version should have the correct rotation of the turret
 - [strike]Added the CE-patch into the mod[/strike] CE-patches now included in the main CE-mod instead
+- [http://steamcommunity.com/sharedfiles/filedetails/?id=3223183579](Chinese tanslation) by 赤光的宣言
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 The popular Mod-pack, focussing on the defense of your colony is out now: FRONTLINE! Of course, all of them can be used as a stand-alone (with one exception: FRONTLINE - Additional Guns needs at least FRONTLINE - Trenches or FRONTLINE - Bunkers)
 
 =====Changelog V.3======
@@ -62,16 +60,14 @@ This mod should be safe for existing save-files.
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431]![Image](https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431]![Image]((https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&style=plastic&color=9f1111&labelColor=black))

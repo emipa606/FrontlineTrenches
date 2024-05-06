@@ -29,6 +29,7 @@ If you like the mod, show the original author your appreciation [url=https://ko-
 - Fixed some icon and blueprint size-differences
 - 1.0 version should have the correct rotation of the turret
 - [strike]Added the CE-patch into the mod[/strike] CE-patches now included in the main CE-mod instead
+- [url=http://steamcommunity.com/sharedfiles/filedetails/?id=3223183579]Chinese tanslation[/url] by 赤光的宣言
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -98,4 +99,5 @@ This mod should be safe for existing save-files.
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431][img]https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

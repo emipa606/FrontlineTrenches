@@ -13,8 +13,8 @@
     <techLevel>Industrial</techLevel>
     <description>First knowledge of setting up a defensive line by using trenches.</description>
     <baseCost>750</baseCost>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>Trenches2</defName>
@@ -25,8 +25,8 @@
     <prerequisites>
       <li>Trenches1</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>Trenches3</defName>
@@ -37,7 +37,7 @@
     <prerequisites>
       <li>Trenches2</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
   </ResearchProjectDef>
 </Defs>
