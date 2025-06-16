@@ -1,0 +1,127 @@
+ManifestFileVersion: 0
+CRC: 1816838168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74f36db34ab97e872e16d16612823821
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 74f36db34ab97e872e16d16612823821
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/LMGTrGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1step_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Sandbags/Trench-SandbagsUI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/PakGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/Ammo-Mortar.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BASEMGTR_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseMortarTR_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/MortarTRGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Furniture/ammocrate_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/HMGTrGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Blueprint/Trench12_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Trench12_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Blueprint/Trench11_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/Mortarbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2step_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseHowitzerTR_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_MMG_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_IncomingMortar.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Sandbags/Sandbags_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Floors/Floorhorizontal.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/HMG/TR_Cartridgebelt_HMG.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/MMGTrSB_BP_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1ladder_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_ExplosionHowitzer.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BasePak_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/LMGTrSB_BP_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/HMGTrSB_BP_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Invis.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Razorwire/Razorwire_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1ladder_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/MortarTRGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Sandbags/Sandbags_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/LMGbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/HowitzerTRGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Scherenfernrohr/Scherenfernrohr.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1step_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1ladder_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/MMG/TR_Cartridgebelt_MMG.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/MMGTrGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/MortarTR_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Furniture/ammocrate.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_Pak_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_HMG_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/Ammo-PAK.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/MMGTrGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/HowitzerTRGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/Flakbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/PakGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Floors/Bombed.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/MMGTrSB_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BasePak_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/LMGTrSB_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_IncomingHowitzer.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/trench22_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/trench11_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_Howitzer_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/HMGTrGun_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/HMGbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Trench11_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/HowitzerTR_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/AmmoUI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/trench12_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Floors/Bombed_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Trench21_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2step_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Razorwire/Razorwire_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/MMGbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_LMG_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_ExplosionMortar.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/HMGTrGun.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Razorwire/Razorwire_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/LMG/TR_Cartridgebelt_LMG.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2step_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Blueprint/Trench21_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1step_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/MMGTrGun_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Floors/Floorvertical.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/LMGTrGun_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_Mortar_Fire.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/LMGTrGun_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench1ladder_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseHowitzerTR_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseMortarTR_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Trench22_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/PakTR_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/Pakbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseHowitzerTR_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/LMGTrGun_old.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Ammo/Ammo-Howitzer.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/HMGTrGun_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Bullets/Howitzerbullet.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/Blueprint/Trench22_Blueprint_Atlas.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2ladder_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Sounds/Things/TR_Wizz.ogg
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/HowitzerTR_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2ladder_north.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BaseMortarTR_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/BasePak_south.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/Scherenfernrohr_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/MortarTR_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trenches/trench21_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Floors/Dirt.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Trench/Trench/Trench2ladder_east.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Blueprints/PakTR_BP.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/MMGTrGun_UI.png
+- Assets/Data/Mlie.FrontlineTrenches/Textures/Things/Building/Mounted/Icons/HMGTrSB_UI.png
+Dependencies: []
