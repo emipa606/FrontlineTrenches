@@ -1,5 +1,8 @@
 # Changelog for FrontlineTrenches
 
+1.5.2 - Last update of the legacy version of the mod
+
+
 1.5.1 - Made the research-placement better
 
 

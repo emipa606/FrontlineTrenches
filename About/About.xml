@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Frontline - Trenches (Continued)</name>
+  <name>[Legacy] Frontline - Trenches (Continued)</name>
   <packageId>Mlie.FrontlineTrenches</packageId>
   <author>Wuerger</author>
   <url>https://github.com/emipa606/FrontlineTrenches</url>
@@ -25,6 +25,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1545180996
 with permission
 If you like the mod, show the original author your appreciation [url=https://ko-fi.com/wuergerking]here[/url]
 
+[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url].[/b]
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3501291601]here[/url].
+This version will not receive any further updates.
+
 - All guns should now show range when placed
 - Fixed some icon and blueprint size-differences
 - 1.0 version should have the correct rotation of the turret
@@ -36,7 +40,7 @@ If you like the mod, show the original author your appreciation [url=https://ko-
 [table]
     [tr]
         [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/FrontlineTrenches][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/FrontlineTrenches/tree/legacy][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
@@ -96,8 +100,8 @@ This mod should be safe for existing save-files.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2471428431][img]https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.2</modVersion>
 </ModMetaData>
