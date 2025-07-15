@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Howitzer Bullet -->
+  <Bullet_ShellHowitzerTR.label>Howitzer Bullet</Bullet_ShellHowitzerTR.label>
+  <!-- EN: Long-range Howitzer. -->
+  <TR_Base_Howitzer.label>Long-range Howitzer.</TR_Base_Howitzer.label>
+  <!-- EN: Long-range Howitzer -->
+  <TR_Base_Howitzer.description>Long-range Howitzer</TR_Base_Howitzer.description>
+  <!-- EN: Long-range Howitzer. -->
+  <TR_Gun_Howitzer.label>Long-range Howitzer.</TR_Gun_Howitzer.label>
+  <!-- EN: Long-range Howitzer. -->
+  <TR_Gun_Howitzer.description>Long-range Howitzer.</TR_Gun_Howitzer.description>
+  <!-- EN: Long-range Howitzer. -->
+  <TR_Gun_Howitzer.verbs.Verb_Shoot.label>Long-range Howitzer.</TR_Gun_Howitzer.verbs.Verb_Shoot.label>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: MG-42 -->
+  <TR_Base_HMG.label>MG-42</TR_Base_HMG.label>
+  <!-- EN: Machine gun with high rate of fire. -->
+  <TR_Base_HMG.description>Machine gun with high rate of fire.</TR_Base_HMG.description>
+  <!-- EN: Shots remaining -->
+  <TR_Base_HMG.comps.CompRefuelable.fuelGizmoLabel>Shots remaining</TR_Base_HMG.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots remaining -->
+  <TR_Base_HMG.comps.CompRefuelable.fuelLabel>Shots remaining</TR_Base_HMG.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new magazine -->
+  <TR_Base_HMG.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new magazine</TR_Base_HMG.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: MG-42 with sandbags -->
+  <TR_Base_HMGSB.label>MG-42 with sandbags</TR_Base_HMGSB.label>
+  <!-- EN: Machine gun with moderate rate of fire. -->
+  <TR_Base_HMGSB.description>Machine gun with moderate rate of fire.</TR_Base_HMGSB.description>
+  <!-- EN: Shots remaining -->
+  <TR_Base_HMGSB.comps.CompRefuelable.fuelGizmoLabel>Shots remaining</TR_Base_HMGSB.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots remaining -->
+  <TR_Base_HMGSB.comps.CompRefuelable.fuelLabel>Shots remaining</TR_Base_HMGSB.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new magazine -->
+  <TR_Base_HMGSB.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new magazine</TR_Base_HMGSB.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: 7.92mm Bullet -->
+  <TR_Bullet_HMG.label>7.92mm Bullet</TR_Bullet_HMG.label>
+  <!-- EN: MG-42 -->
+  <TR_Gun_HMG.label>MG-42</TR_Gun_HMG.label>
+  <!-- EN: Machine gun with high rate of fire. -->
+  <TR_Gun_HMG.description>Machine gun with high rate of fire.</TR_Gun_HMG.description>
+  <!-- EN: MG-42 -->
+  <TR_Gun_HMG.verbs.Verb_Shoot.label>MG-42</TR_Gun_HMG.verbs.Verb_Shoot.label>
+</LanguageData>

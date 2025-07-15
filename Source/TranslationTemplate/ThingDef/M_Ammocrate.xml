@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ammocrate -->
+  <Ammocrate.label>Ammocrate</Ammocrate.label>
+  <!-- EN: Ammunition stored here will not deteriorate. -->
+  <Ammocrate.description>Ammunition stored here will not deteriorate.</Ammocrate.description>
+</LanguageData>

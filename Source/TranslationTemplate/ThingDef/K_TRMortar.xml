@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mortar Grenades -->
+  <Bullet_ShellMortarTR.label>Mortar Grenades</Bullet_ShellMortarTR.label>
+  <!-- EN: Medium-range Mortar. -->
+  <TR_Base_Mortar.label>Medium-range Mortar.</TR_Base_Mortar.label>
+  <!-- EN: Medium-range Mortar. -->
+  <TR_Base_Mortar.description>Medium-range Mortar.</TR_Base_Mortar.description>
+  <!-- EN: Medium-range Mortar. -->
+  <TR_Gun_Mortar.label>Medium-range Mortar.</TR_Gun_Mortar.label>
+  <!-- EN: Medium-range Mortar. -->
+  <TR_Gun_Mortar.description>Medium-range Mortar.</TR_Gun_Mortar.description>
+  <!-- EN: Medium-range Mortar. -->
+  <TR_Gun_Mortar.verbs.Verb_Shoot.label>Medium-range Mortar.</TR_Gun_Mortar.verbs.Verb_Shoot.label>
+</LanguageData>

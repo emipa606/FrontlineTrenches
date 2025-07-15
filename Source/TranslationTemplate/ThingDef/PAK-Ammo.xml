@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 50mm Anti-Tank Shells -->
+  <Bullet_ShellPakTr.label>50mm Anti-Tank Shells</Bullet_ShellPakTr.label>
+  <!-- EN: 50mm Anti-Tank Shells -->
+  <Shell_Pak.label>50mm Anti-Tank Shells</Shell_Pak.label>
+  <!-- EN: An Anti-Tank Shell, does NOT explode. Direct hit deals an immens amount of damage. -->
+  <Shell_Pak.description>An Anti-Tank Shell, does NOT explode. Direct hit deals an immens amount of damage.</Shell_Pak.description>
+</LanguageData>

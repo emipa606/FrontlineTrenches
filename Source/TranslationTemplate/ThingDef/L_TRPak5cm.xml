@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 50 mm anti-tank gun. -->
+  <TR_Base_Pak.label>50 mm anti-tank gun.</TR_Base_Pak.label>
+  <!-- EN: 50 mm anti-tank gun. -->
+  <TR_Base_Pak.description>50 mm anti-tank gun.</TR_Base_Pak.description>
+  <!-- EN: 50mm Bullet -->
+  <TR_Bullet_5cm.label>50mm Bullet</TR_Bullet_5cm.label>
+  <!-- EN: 5 cm anti-tank gun -->
+  <TR_Gun_Pak.label>5 cm anti-tank gun</TR_Gun_Pak.label>
+  <!-- EN: A powerfull Anti-Tank Gun. Fires 50mm armor-piercing projectiles, which do NOT explode! -->
+  <TR_Gun_Pak.description>A powerfull Anti-Tank Gun. Fires 50mm armor-piercing projectiles, which do NOT explode!</TR_Gun_Pak.description>
+  <!-- EN: 5 cm anti-tank gun -->
+  <TR_Gun_Pak.verbs.Verb_Shoot.label>5 cm anti-tank gun</TR_Gun_Pak.verbs.Verb_Shoot.label>
+</LanguageData>

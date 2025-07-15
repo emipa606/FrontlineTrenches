@@ -3,5 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-16T23:07:18.8085824+02:00"
+  "LastXmlCleaning": "2025-07-15T20:15:29.4154005+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 106221,
+  "CodeBaseSize": 79,
+  "SocialImageSet": true,
+  "SearchTags": " defense"
 }
