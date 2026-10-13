@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="HowitzerShellBase" ParentName="ResourceBase" Abstract="True">
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>10</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>1.5</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>AmmoUITR</li>
+    </thingCategories>
+    <tradeTags>
+      <li>AmmoUITR</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="MakeableHowitzerShellBase" ParentName="HowitzerShellBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>900</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="MakeableHowitzerShellBase">
+    <defName>Shell_HowitzerTR</defName>
+    <label>Howitzer Shells</label>
+    <description>Grenades for the Howitzer.</description>
+    <graphicData>
+      <texPath>Things/Building/Mounted/Ammo/Ammo-Howitzer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectileWhenLoaded>Bullet_ShellHowitzerTR</projectileWhenLoaded>
+    <costList>
+      <Steel>50</Steel>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+  </ThingDef>
+</Defs>

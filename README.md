@@ -1,6 +1,6 @@
 # [Frontline - Trenches (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3501291601)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Wuergers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1545180996
@@ -16,9 +16,9 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 - ~~Added the CE-patch into the mod~~ CE-patches now included in the main CE-mod instead
 - [Chinese tanslation](http://steamcommunity.com/sharedfiles/filedetails/?id=3223183579) by 赤光的宣言
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 The popular Mod-pack, focussing on the defense of your colony is out now: FRONTLINE! Of course, all of them can be used as a stand-alone (with one exception: FRONTLINE - Additional Guns needs at least FRONTLINE - Trenches or FRONTLINE - Bunkers)
 
@@ -62,13 +62,13 @@ This portion is the known trenches mod, including:
 New and updated sounds (explosions, incoming missles, mg-fire), mostly extracted from actual wartime recordings.
 This mod should be safe for existing save-files.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -76,4 +76,4 @@ This mod should be safe for existing save-files.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3501291601) | tags:  defense
+[![Image](https://img.shields.io/github/v/release/emipa606/FrontlineTrenches?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3501291601) | defense
